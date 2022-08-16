@@ -15,8 +15,8 @@ body{
     border:1px dotted rgba(128, 128, 128, 0.514);
 }
 .container{
-    width: 40em;
-    height: 40em;
+    width: 65vh;
+    height: 65vh;
     display:grid;
     box-shadow: 3px 3px 15px rgb(0, 0, 0);
 }
@@ -55,8 +55,8 @@ h1{
 
 @media (max-width: 700px){
     .container{
-        width:20em;
-        height:20em;
+        width:40vh;
+        height:40vh;
     }
     .fieldset{
         flex-direction:column;
