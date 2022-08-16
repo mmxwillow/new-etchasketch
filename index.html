@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,28 @@
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
-        
+
     </div>
+
+    <fieldset>
+        <legend>Select grid size:</legend>
+        <input type="radio" id="16" name="gridsize" value="16" checked>
+        <label for="16">16x16</label>
+
+        <input type="radio" id="32" name="gridsize" value="32" checked>
+        <label for="32">32x32</label>
+
+        <input type="radio" id="48" name="gridsize" value="48" checked>
+        <label for="48">48x48</label>
+
+        <input type="radio" id="64" name="gridsize" value="64" checked>
+        <label for="64">64x64</label>
+    </fieldset>
+
     <script src="scripts.js"></script>
 </body>
+
 </html>

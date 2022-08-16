@@ -10,5 +10,4 @@ body{
     max-width: 30em;
     min-height: 30em;
     display:grid;
-    grid-template-columns:repeat(16,1fr);
 }
