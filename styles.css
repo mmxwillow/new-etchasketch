@@ -4,7 +4,7 @@ body{
 }
 .square{
     display:grid;
-    border:1px dotted gray;
+    border:1px dotted rgba(128, 128, 128, 0.514);
 }
 .container{
     max-width: 30em;
