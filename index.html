@@ -7,27 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-
+    <h1>Etch-a-Sketch</h1>
+    <div class="container"></div>
+    <div class="legend">Select grid size:</div>
+    <div class="fieldset">
+        <div>
+            <input type="radio" id="16" name="gridsize" value="16" checked>
+            <label for="16">16x16</label>
+        </div>
+        <div>
+            <input type="radio" id="32" name="gridsize" value="32">
+            <label for="32">32x32</label>
+        </div>
+        <div>
+            <input type="radio" id="48" name="gridsize" value="48">
+            <label for="48">48x48</label>
+        </div>
+        <div>
+            <input type="radio" id="64" name="gridsize" value="64">
+            <label for="64">64x64</label>
+        </div>
+        <div>
+            <input type="radio" id="96" name="gridsize" value="96">
+            <label for="96">96x96</label>
+        </div>
     </div>
-
-    <fieldset>
-        <legend>Select grid size:</legend>
-        <input type="radio" id="16" name="gridsize" value="16" checked>
-        <label for="16">16x16</label>
-
-        <input type="radio" id="32" name="gridsize" value="32" checked>
-        <label for="32">32x32</label>
-
-        <input type="radio" id="48" name="gridsize" value="48" checked>
-        <label for="48">48x48</label>
-
-        <input type="radio" id="64" name="gridsize" value="64" checked>
-        <label for="64">64x64</label>
-    </fieldset>
+    <button id="clear">Clear grid</button>
+    <footer>made by <a href="https://github.com/mmxwillow">mmxwillow</a></footer>
 
     <script src="scripts.js"></script>
 </body>
